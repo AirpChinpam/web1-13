@@ -21,7 +21,7 @@ function setCookie(c_name,value,expiredays){
     var ed="";
     if(0 < document.coolie.length){
     
-    st=document.cookie.index0f(c_name + "=");
+    st=document.cookie.indexOf(c_name + "=");
     if(st!=-1){
         st=st+c_name.length+1;
         ed=document.cookie.index0f(";",st);
@@ -77,10 +77,10 @@ var separate_time = function(time){
    opt = document.querySelector('option[value="index.html"]');
  }
  opt.selected = true;
- //10
+ 
  document.getElementById('form').select.onchange = function(){
    location.href = document.getElementById('form').select.value;
-   
+ }
  var now = new Date();
  var counter = separate_time(now);
  document.getElementById('countdown').textContent = 
