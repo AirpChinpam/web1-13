@@ -45,7 +45,7 @@ function setCookie(c_name,value,expiredays){
 var thumbs = document.querySelectorAll('.thumb');
 for(idx in thumbs){
     thumbs[idx].onclick =function(){
-            document.getElemntById("bigimg").src = 'img/' + this.dataset.image + '.jps';
+            document.getElemntById("bigimg").src = 'l-A0IEY0.jpg/' + this.dataset.image + '.jps';
        }
  }
 
@@ -120,7 +120,7 @@ var separate_time = function(time){
 var thumbs = document.querySelectorAll('.thumb');
 for(idx in thumbs){
      thumbs[idx].onclick = function(){
-          document.getElementById("bigimg").src = 'img/' + this.dataset.image + '.jpg';
+          document.getElementById("bigimg").src = 'l-A0IEY0.jpg/' + this.dataset.image + '.jpg';
      }
 }
 
