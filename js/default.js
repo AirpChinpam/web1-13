@@ -37,10 +37,10 @@ function setCookie(c_name,value,expiredays){
      document.getElementById('cookie').textContent = '前回訪れた:' + last_date;
  }else{
     document.getElementById('cookie').textContent = はじめまして';
- }
+}
  
  var current_time = new Date();
- setCookie('lastDate', current_time.toString(),7);
+ setCookie('lastDate', current_time.toString(), 7);
 
 var thmubs = document.querySelectorAll('.thumb');
 for(idx in thmubs){
