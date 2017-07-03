@@ -42,9 +42,9 @@ function setCookie(c_name,value,expiredays){
  var current_time = new Date();
  setCookie('lastDate', current_time.toString(), 7);
 
-var thmubs = document.querySelectorAll('.thumb');
-for(idx in thmubs){
-    thmubs[idx].onclick =function(){
+var thumbs = document.querySelectorAll('.thumb');
+for(idx in thumbs){
+    thumbs[idx].onclick =function(){
             document.getElemntById("bigimg").src = 'img/' + this.dataset.image + '.jps';
        }
  }
