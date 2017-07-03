@@ -36,7 +36,7 @@ function setCookie(c_name,value,expiredays){
  if(last_date){
      document.getElementById('cookie').textContent = '前回訪れた:' + last_date;
  }else{
-    document.getElementById('cookie').textContent = はじめまして';
+    document.getElementById('cookie').textContent = 'はじめまして';
 }
  
  var current_time = new Date();
