@@ -116,3 +116,11 @@ var separate_time = function(time){
     setTimeout(update, 1000);
   }
   update();
+
+var thumbs = document.querySelectorAll('.thumb');
+for(idx in thumbs){
+     thumbs[idx].onclick = function(){
+          document.getElementById("bigimg").src = 'img/' + this.dataset.image + '.jpg';
+     }
+}
+
